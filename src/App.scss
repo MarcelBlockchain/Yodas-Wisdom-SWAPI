@@ -11,9 +11,18 @@ html {
 
 body {
   margin: 0;
+  background-color: black;
 }
 
 img {
   max-width: 100%;
   display: block;
 }
+
+.star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+}
+
