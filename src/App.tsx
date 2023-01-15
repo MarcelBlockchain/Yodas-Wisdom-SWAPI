@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import React from 'react'
+import './App.scss'
 import yodaForce from './assets/yoda_force.jpg'
 
 function App (): JSX.Element | null {
@@ -35,6 +37,8 @@ function App() {
         <img className='yoda-image' src={yodaForce} alt='yoda raising his hand to use the force' />
     </div>
   );
+  )
 }
 
 export default App;
+export default App
