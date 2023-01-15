@@ -1,6 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
 import React from 'react'
 import './App.scss'
 import yodaForce from './assets/yoda_force.jpg'
@@ -29,16 +26,43 @@ function App (): JSX.Element | null {
     return [randomX, randomY]
   }
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div className='App'>
+      <header className='App-header' />
+      <body>
+        <div className='name-bubbles-container'>
+          <div className='name-bubble'>
+            <p>Luke</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Leia</p>
+          </div>
+          <div className='name-bubble'>
+            <p>C3-PO</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Vader</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Vader</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Vader</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Vader</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Vader</p>
+          </div>
+          <div className='name-bubble'>
+            <p>Vader</p>
+          </div>
+        </div>
         <img className='yoda-image' src={yodaForce} alt='yoda raising his hand to use the force' />
+      </body>
     </div>
-  );
   )
 }
 
-export default App;
 export default App
