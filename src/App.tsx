@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import yodaForce from './assets/yoda_force.jpg'
+
+function App (): JSX.Element | null {
   // Star generating code from: https://codepen.io/christopherkade/pen/rJVPjz
   // Sets the number of stars we wish to display
   const numStars = 100
