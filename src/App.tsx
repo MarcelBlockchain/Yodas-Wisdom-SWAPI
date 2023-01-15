@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
+import yodaForce from './assets/yoda_force.jpg'
   // Star generating code from: https://codepen.io/christopherkade/pen/rJVPjz
   // Sets the number of stars we wish to display
   const numStars = 100
@@ -29,6 +30,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
+        <img className='yoda-image' src={yodaForce} alt='yoda raising his hand to use the force' />
     </div>
   );
 }
